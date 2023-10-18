@@ -1,0 +1,40 @@
+.project-link {
+  display: flex;
+  /* flex-direction: row; */
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(196, 194, 161);
+  height: 600px;
+  color: cadetblue;
+  font-size: larger;
+}
+
+.project-link h3 {
+  font-size: 40px;
+}
+
+.projectcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px;
+  border-radius: 15px;
+  font-style: italic;
+  height: 300px;
+  width: 400px;
+}
+
+.web-detail{
+  margin: 0 20px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  height: 200px;
+
+}

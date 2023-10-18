@@ -1,0 +1,101 @@
+.about-detail {
+  margin: 0 0 0 0;
+  padding: 200px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-evenly;
+  height: 650px;
+  /* background-color: burlywood; */
+  background: url("../Image/birmingham-museums-trust-pWVJHDiAonU-unsplash.jpg");
+  backdrop-filter: blur(3px);
+  text-align: justify;
+}
+.deatil-text {
+  margin: 10px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 300px;
+  width: 600px;
+  border-radius: 40px;
+  backdrop-filter: blur(10px);
+  color: rgb(121, 86, 9);
+  box-shadow: 10px 5px 5px rgb(157, 150, 74);
+}
+.contact-form label {
+  font-size: larger;
+  font-family: "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  color: rgb(102, 99, 74);
+}
+.contact-form input {
+  border: solid 1px rgb(114, 107, 50);
+  border-radius: 3px;
+  height: 30px;
+  width: 180px;
+  font-size: large;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.contact-form textarea {
+  border: solid 1px rgb(114, 107, 50);
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  font-size: large;
+}
+
+.gitQR-link img {
+  height: 350px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-animation: breathing 14s ease-out infinite normal;
+  box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
+}
+@-webkit-keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+
+@keyframes breathing {
+  0% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  25% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  60% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+
+  100% {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}

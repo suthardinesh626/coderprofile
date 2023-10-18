@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "url": "https://e-com-deployed.vercel.app/",
+    "websiteName": "E-Commerce Deployed",
+    "description": "Explore and experience seamless online shopping on E-Commerce Deployed, your go-to destination for a wide range of products."
+  },
+  {
+    "id": 2,
+    "url": "https://ai-summarizer-seven.vercel.app/",
+    "websiteName": "AI Summarizer",
+    "description": "AI Summarizer is a cutting-edge tool that intelligently summarizes web pages into concise paragraphs, making information extraction efficient and effortless."
+  },
+  {
+    "id": 3,
+    "url": "https://fugenx.vercel.app/",
+    "websiteName": "Fugenx",
+    "description": "Fugenx is a leading web development company, crafting innovative and user-centric websites to elevate your online presence and business performance."
+  },
+  {
+    "id": 4,
+    "url": "https://paperfrry.netlify.app/",
+    "websiteName": "Paperfrry",
+    "description": "Paperfrry is your gateway to seamless conference participation. Register for conferences, submit papers, and showcase your research contributions to the academic community."
+  }
+]
