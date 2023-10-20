@@ -5,14 +5,16 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-evenly;
-  background-color: rgb(196, 194, 161);
+  background-color: rgb(41, 41, 40);
   height: 600px;
-  color: cadetblue;
+  color: rgb(147, 148, 148);
   font-size: larger;
+  
 }
 
 .project-link h3 {
   font-size: 40px;
+  
 }
 
 .projectcard {
@@ -25,9 +27,13 @@
   font-style: italic;
   height: 300px;
   width: 400px;
+  border: 5px inset orange;
 }
-
-.web-detail{
+.projectcard:hover {
+  transition: 0.4s;
+  box-shadow: 0 0 px rgba(136, 135, 135, 0.756);
+}
+.web-detail {
   margin: 0 20px;
   padding: 10px;
   display: flex;
@@ -36,5 +42,26 @@
   align-items: center;
   /* background-color: aqua; */
   height: 200px;
+}
 
+#web-link {
+  text-decoration: none;
+  color: #bc2e1e;
+  font-size: 28px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 35px;
+  width: 45px;
+  /* background-color: aqua; */
+}
+#web-link:hover {
+  font-size: 30px;
+  transition: 0.8s;
+  /* background-color: #edde9c; */
+  color: #bc2e1e;
+  text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4,
+    2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd,
+    3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4,
+    5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd,
+    6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4,
+    8px 7px 0px #5dabcd;
 }

@@ -11,7 +11,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color:azure;
+    /* background-color:azure; */
     height: 180px;
     width: 1500px;
 }
@@ -23,5 +23,6 @@
     justify-content: space-evenly;
     /* background-color: rgb(159, 88, 88); */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: chocolate;
+    color: rgb(126, 123, 121);
+    background: rgb(41, 41, 40);
 }

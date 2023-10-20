@@ -7,7 +7,9 @@
   justify-content: space-evenly;
   height: 650px;
   /* background-color: burlywood; */
-  background: url("../Image/birmingham-museums-trust-pWVJHDiAonU-unsplash.jpg");
+  /* background: url("../Image/birmingham-museums-trust-pWVJHDiAonU-unsplash.jpg");
+   */
+  background-color: rgb(41, 41, 40);
   backdrop-filter: blur(3px);
   text-align: justify;
 }
@@ -22,8 +24,10 @@
   width: 600px;
   border-radius: 40px;
   backdrop-filter: blur(10px);
-  color: rgb(121, 86, 9);
-  box-shadow: 10px 5px 5px rgb(157, 150, 74);
+  color: rgb(186, 178, 161);
+  box-shadow: 0px 20px 100px rgba(166, 163, 163, 0.5);
+  /* background-color: rgb(41, 41, 40); */
+
 }
 .contact-form label {
   font-size: larger;

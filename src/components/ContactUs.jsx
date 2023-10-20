@@ -5,7 +5,7 @@ import '../style/Aboutme.css'
 const ContactUs = () => {
     return (
         <>
-            <div className='footer-detail'>
+            <div className='footer-detail' id='Contact'>
 
                 <div className='gitQR-link'>
                     <img src={gitQR} />
