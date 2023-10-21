@@ -4,7 +4,7 @@ import ImageData from '../json/ImageData.json';
 
 const ImageComponent = ({ id, src, name }) => {
   return (< div key={id} >
-    <img src={src} alt={name} />
+    <img className='tech-logo' src={src} alt={name} />
   </div >
   )
 

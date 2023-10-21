@@ -8,8 +8,8 @@ const ProjectCard =({id, url, websiteName, description})=>{
         <div className='projectcard' key={id}>
             <a  href={url} id='web-link' ><p  >Link</p></a>
             <div className='web-detail'>
-                <h3 className='text-sm'> {websiteName} </h3>
-                <p> {description} </p>
+                <h3 className='website-name'> {websiteName} </h3>
+                <p className='web-description'> {description} </p>
             </div>
 
         </div>

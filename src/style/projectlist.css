@@ -1,3 +1,4 @@
+
 .project-link {
   display: flex;
   /* flex-direction: row; */
@@ -10,6 +11,19 @@
   color: rgb(147, 148, 148);
   font-size: larger;
   
+}
+
+.project-link:hover .projectcard{
+  filter:blur(3px);
+  opacity:.5;
+  transform: scale(.98);
+  box-shadow:none;
+}
+.project-link:hover .projectcard:hover{
+  transform:scale(1);
+  filter:blur(0px);
+  opacity:1;
+  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
 }
 
 .project-link h3 {
@@ -64,4 +78,15 @@
     5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd,
     6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4,
     8px 7px 0px #5dabcd;
+}
+
+
+.website-name{
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.web-description{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400 ;
 }

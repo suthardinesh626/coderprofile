@@ -4,6 +4,7 @@ import ProjectList from "./components/ProjectList";
 import Techabout from './components/Techabout'
 import ContactUs from "./components/ContactUs";
 import SocialMedia from "./components/SocialMedia";
+import '../src/App.css'
 
 
 function App() {
