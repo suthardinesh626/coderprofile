@@ -60,7 +60,7 @@
   box-shadow: 0 0 15px #5c5c59;
 }
 .tech-logo:hover {
-
+  border: 0px;
   box-shadow: 0 0 60px #cabd28;
 
 }

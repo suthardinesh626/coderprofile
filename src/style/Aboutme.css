@@ -105,3 +105,14 @@
     transform: scale(0.9);
   }
 }
+
+@media screen and (max-width: 400px) {
+  .deatil-text{
+    font-size: 15px;
+    height: 450px;
+    width: 92%;
+  }
+  .gitQR-link img {
+    display: none;
+  }
+}

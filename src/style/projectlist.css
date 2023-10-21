@@ -38,13 +38,13 @@
   align-items: center;
   border: solid 2px;
   border-radius: 15px;
-  font-style: italic;
   height: 300px;
   width: 400px;
   border: 5px inset orange;
 }
 .projectcard:hover {
   transition: 0.4s;
+  /* border: 0px; */
   box-shadow: 0 0 px rgba(136, 135, 135, 0.756);
 }
 .web-detail {
@@ -70,6 +70,7 @@
 #web-link:hover {
   font-size: 30px;
   transition: 0.8s;
+
   /* background-color: #edde9c; */
   color: #bc2e1e;
   text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4,
