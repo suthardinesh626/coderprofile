@@ -31,7 +31,7 @@
 
 
 .tech-logo {
-  width: 200px;
+  width: 180px;
   height: 150px;
   line-height: 63px;
   /* background: #333; */
@@ -47,7 +47,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 180px;
   height: 100%;
   border-radius: 50%;
   /* background: #85857b; */

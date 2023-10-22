@@ -5,7 +5,7 @@ import ProjectItem from '../json/ProjectItem.json'
 
 const ProjectCard =({id, url, websiteName, description})=>{
     return(
-        <div className='projectcard' key={id}>
+        <div className='project-back' key={id}>
             <a  href={url} id='web-link' ><p  >Link</p></a>
             <div className='web-detail'>
                 <h3 className='website-name'> {websiteName} </h3>

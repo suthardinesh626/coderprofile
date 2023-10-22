@@ -8,7 +8,7 @@ const ContactUs = () => {
             <div className='footer-detail' id='Contact'>
 
                 <div className='gitQR-link'>
-                    <img src={gitQR} />
+                    {/* <img src={gitQR} /> */}
                 </div>
                 <form action="" className='contact-form'>
                     <label >Name:</label>

@@ -1,7 +1,5 @@
-
 .project-link {
   display: flex;
-  /* flex-direction: row; */
   -webkit-flex-wrap: nowrap;
   flex-wrap: nowrap;
   align-items: center;
@@ -10,28 +8,26 @@
   height: 600px;
   color: rgb(147, 148, 148);
   font-size: larger;
-  
 }
 
-.project-link:hover .projectcard{
-  filter:blur(3px);
-  opacity:.5;
-  transform: scale(.98);
-  box-shadow:none;
+.project-link:hover .project-back {
+  filter: blur(3px);
+  opacity: 0.5;
+  transform: scale(0.98);
+  box-shadow: none;
 }
-.project-link:hover .projectcard:hover{
-  transform:scale(1);
-  filter:blur(0px);
-  opacity:1;
-  box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+.project-link:hover .project-back:hover {
+  transform: scale(1);
+  filter: blur(0px);
+  opacity: 1;
+  box-shadow: 0 8px 20px 0px rgba(0, 0, 0, 0.125);
 }
 
 .project-link h3 {
   font-size: 40px;
-  
 }
 
-.projectcard {
+.project-back {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -41,9 +37,10 @@
   height: 300px;
   width: 400px;
   border: 5px inset orange;
+  transform: rotateX(0deg);
 }
-.projectcard:hover {
-  transition: 0.4s;
+.project-back:hover {
+  transition: 0.8s;
   /* border: 0px; */
   box-shadow: 0 0 px rgba(136, 135, 135, 0.756);
 }
@@ -81,13 +78,11 @@
     8px 7px 0px #5dabcd;
 }
 
-
-.website-name{
+.website-name {
   text-decoration: none;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.web-description{
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  font-weight: 400 ;
+.web-description {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
 }

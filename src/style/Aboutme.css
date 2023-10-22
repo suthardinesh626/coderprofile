@@ -1,5 +1,3 @@
-
-
 .about-detail {
   margin: 0 0 0 0;
   padding: 200px 0 0 0;
@@ -29,7 +27,6 @@
   color: rgb(186, 178, 161);
   box-shadow: 0px 20px 100px rgba(166, 163, 163, 0.5);
   /* background-color: rgb(41, 41, 40); */
-
 }
 .contact-form label {
   font-size: larger;
@@ -53,11 +50,17 @@
 }
 
 .gitQR-link img {
-  height: 350px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-animation: breathing 14s ease-out infinite normal;
-  box-shadow: 0 60px 80px rgba(0,0,0,0.60), 0 45px 26px rgba(0,0,0,0.14);
+  height: 400px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  box-shadow: 0 65px 65px ;
 }
+
+
+
+
+
 @-webkit-keyframes breathing {
   0% {
     -webkit-transform: scale(0.9);
@@ -107,7 +110,7 @@
 }
 
 @media screen and (max-width: 400px) {
-  .deatil-text{
+  .deatil-text {
     font-size: 15px;
     height: 450px;
     width: 92%;
